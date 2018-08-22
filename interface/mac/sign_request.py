@@ -3,6 +3,7 @@ from simplejson.scanner import JSONDecodeError
 
 
 class SignRequests:
+    """封装get和post请求"""
 
     def __init__(self):
         self.base_url = "http://127.0.0.1:8000/"
